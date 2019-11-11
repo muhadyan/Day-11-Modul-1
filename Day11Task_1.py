@@ -1,4 +1,3 @@
-'''
 # bikin program yg bisa diakses di file lain (lanjut di file 'Day11Task_2')
 import datetime as dt
 x = dt.datetime.now()
@@ -23,7 +22,7 @@ class asr:
         self.detik = x.strftime('%S')
 
 waktu = asr()
-'''
+
 
 
 # bikin mean, median, modus tanpa modul statistik
