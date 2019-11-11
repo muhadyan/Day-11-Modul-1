@@ -51,4 +51,4 @@ class Statistik:
         return d
 
 stat = Statistik()
-print(stat.nilaiTerbanyak([2, 7, 5, 5, 7]))
+print(stat.nilaiTerbanyak([2, 7, 5, 7]))
