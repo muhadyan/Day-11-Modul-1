@@ -11,7 +11,7 @@ listBulan = {
     'August': 'Agustus', 'September': 'September', 'October': 'Oktober',
     'November': 'November', 'December': 'Desember'}
 
-class asr:
+class time:
     def __init__(self):
         self.hari = listHari[x.strftime('%A')]
         self.tanggal = x.strftime('%d')
@@ -21,7 +21,7 @@ class asr:
         self.menit = x.strftime('%M')
         self.detik = x.strftime('%S')
 
-waktu = asr()
+waktu = time()
 
 
 
